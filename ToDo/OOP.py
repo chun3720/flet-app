@@ -79,5 +79,6 @@ def main(page: ft.page):
     taskingApp = TasksApp()
     page.add(taskingApp)
     
-    
-ft.app(target = main)
+
+if __name__ == "__main__":
+    ft.app(target = main, view=ft.WEB_BROWSER)
